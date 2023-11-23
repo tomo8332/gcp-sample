@@ -51,7 +51,7 @@ CLOUD_SQL_CONNECTION_NAME=
 `Cloud SQL` インスタンス作成時に設定したパスワードを入力。
 
 `CLOUD_SQL_CONNECTION_NAME` はCloudSQLインスタンスの`接続先名`を記入してください。
-![CLOUD_SQL_CONNECTION_NAME](image/gcp_sql_env_connection.png)
+
 
 4. `build-and-deploy.sh` スクリプトに実行権限がない場合、  
 コマンドを実行して、ファイルに実行権限を与える。  
