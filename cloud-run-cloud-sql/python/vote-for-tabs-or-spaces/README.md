@@ -2,9 +2,9 @@
 タブキー または スペースキー を選択して投票する。
 
 # What service do you use?  
-Cloud Run
-Cloud SQL
-言語：Python
+Cloud Run  
+Cloud SQL  
+言語：Python  
 
 # Initialization  
 1. Artifact Registry用のDockerリポジトリを作成する。  
