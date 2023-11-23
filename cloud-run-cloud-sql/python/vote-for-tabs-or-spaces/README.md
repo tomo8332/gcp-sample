@@ -1,10 +1,12 @@
 # Description  
 タブキー または スペースキー を選択して投票する。
 
+
 # What service do you use?  
 Cloud Run  
 Cloud SQL  
 言語：Python  
+
 
 # Initialization  
 1. Artifact Registry用のDockerリポジトリを作成する。  
@@ -34,15 +36,7 @@ CONNECTION_NAME=# YOUR CONNECTION NAME GOES HERE
 `CONNECTION_NAME` はCloudSQLインスタンスの`接続先名`を記入してください。
 ![CONNECTION_NAME](image/gcp_sql_connection.png)
 
-
-3. `build-and-deploy.sh` スクリプトに実行権限がない場合、  
-コマンドを実行して、ファイルに実行権限を与える。  
-
-```
-chmod +x ./build-and-deploy.sh
-```
-
-4. vimコマンドを使って、`.env` を修正  
+3. vimコマンドを使って、`.env` を修正  
 下記の環境変数を修正してください。  
 ```
 DB_USER=
@@ -52,6 +46,13 @@ CLOUD_SQL_CONNECTION_NAME=
 ```
 `CLOUD_SQL_CONNECTION_NAME` はCloudSQLインスタンスの`接続先名`を記入してください。
 ![CLOUD_SQL_CONNECTION_NAME](image/gcp_sql_env_connection.png)
+
+4. `build-and-deploy.sh` スクリプトに実行権限がない場合、  
+コマンドを実行して、ファイルに実行権限を与える。  
+
+```
+chmod +x ./build-and-deploy.sh
+```
 
 
 # Deploy  
