@@ -36,6 +36,7 @@ CONNECTION_NAME=# YOUR CONNECTION NAME GOES HERE
 `CONNECTION_NAME` はCloudSQLインスタンスの`接続先名`を記入してください。
 ![CONNECTION_NAME](image/gcp_sql_connection.png)
 
+
 3. vimコマンドを使って、`.env` を修正  
 下記の環境変数を修正してください。  
 
@@ -51,6 +52,7 @@ CLOUD_SQL_CONNECTION_NAME=
 `Cloud SQL` インスタンス作成時に設定したパスワードを入力。
 
 `CLOUD_SQL_CONNECTION_NAME` はCloudSQLインスタンスの`接続先名`を記入してください。
+![CLOUD_SQL_CONNECTION_NAME](image/gcp_sql_env_connection.png)
 
 
 4. `build-and-deploy.sh` スクリプトに実行権限がない場合、  
