@@ -38,12 +38,18 @@ CONNECTION_NAME=# YOUR CONNECTION NAME GOES HERE
 
 3. vimコマンドを使って、`.env` を修正  
 下記の環境変数を修正してください。  
+
 ```
 DB_USER=
 DB_PASS=
 DB_NAME=
 CLOUD_SQL_CONNECTION_NAME=
 ```
+
+`DB_USER` と `DB_NAME` には、何も指定がなければ、  
+デフォルトで、`postgres` を入力、`DB_PASS` には、  
+`Cloud SQL` インスタンス作成時に設定したパスワードを入力。
+
 `CLOUD_SQL_CONNECTION_NAME` はCloudSQLインスタンスの`接続先名`を記入してください。
 ![CLOUD_SQL_CONNECTION_NAME](image/gcp_sql_env_connection.png)
 
