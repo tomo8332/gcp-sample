@@ -1,5 +1,6 @@
 # Description  
 タブキー または スペースキー を選択して投票する。
+![TAB_SPACE](image/sql_cloud_run_tab_space.png)
 
 
 # What service do you use?  
