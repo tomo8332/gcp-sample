@@ -42,6 +42,18 @@ CONNECTION_NAME=# YOUR CONNECTION NAME GOES HERE
 chmod +x ./build-and-deploy.sh
 ```
 
+4. vimコマンドを使って、`.env` を修正  
+下記の環境変数を修正してください。  
+```
+DB_USER=
+DB_PASS=
+DB_NAME=
+CLOUD_SQL_CONNECTION_NAME=
+```
+`CLOUD_SQL_CONNECTION_NAME` はCloudSQLインスタンスの`接続先名`を記入してください。
+![CLOUD_SQL_CONNECTION_NAME](image/gcp_sql_env_connection.png)
+
+
 # Deploy  
 `deploy.sh` スクリプトを実行して、`Artifact Registory` に対して、  
 イメージのビルドとプッシュを行い、Cloud RunのServiceをデプロイする。  
