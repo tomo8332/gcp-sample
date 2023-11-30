@@ -25,8 +25,6 @@ gcloud artifacts repositories create $REPOSITORY_NAME \
  
 ```
 REGION := "Rewrite to the region you are deploying to"
-↓
-example）REGION := "asia-northeast2"
 ```
 
 3. vimコマンドを使って、`deploy.sh` を修正  
