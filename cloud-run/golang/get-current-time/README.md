@@ -20,7 +20,14 @@ gcloud artifacts repositories create $REPOSITORY_NAME \
     --project=$GOOGLE_PROJECT_ID
 ```
 
-2. vimコマンドを使って、`deploy.sh` を修正  
+2. vimコマンドを使って、`main.go` を修正  
+下記の環境変数を修正してデプロイ先のリージョン名を入力。 
+ 
+```
+REGION := "Rewrite to the region you are deploying to"
+```
+
+3. vimコマンドを使って、`deploy.sh` を修正  
 下記の環境変数を修正してください。  
 
 ```
@@ -29,7 +36,7 @@ REPOSITORY_NAME=# YOUR ARTIFACT REPOSITORY NAME GOES HERE
 LOCATION_NAME=# YOUR GOOGLE CLOUD LOCATION GOES HERE
 ```
 
-3. `deploy.sh` スクリプトに実行権限がない場合、  
+4. `deploy.sh` スクリプトに実行権限がない場合、  
 コマンドを実行して、ファイルに実行権限を与える。  
 
 ```
