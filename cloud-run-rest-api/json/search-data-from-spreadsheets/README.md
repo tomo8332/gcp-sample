@@ -1,7 +1,7 @@
 # Description  
 REST APIを使って、Googleスプレッドシートからデータを検索する。
 
-# remarks
+# Remarks
 [SlipSlap warehouse](https://docs.google.com/spreadsheets/d/1rcj3SbeK_VcMOBrwwdAksJXQVoHTZHRzVOBO8A3X148/edit#gid=0)
 
 # What service do you use?  
